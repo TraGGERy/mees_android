@@ -8,7 +8,8 @@ const Generating = ({ className }) => {
       } text-base`}
     >
       <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-      AI is generating
+      <a href="https://mees-ai-search.vercel.app/">
+      Click here Mees Ai Search Engine</a>
     </div>
   );
 };

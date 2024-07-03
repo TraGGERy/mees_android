@@ -10,6 +10,7 @@ import {
 } from "./design/Services";
 
 import Generating from "./Generating";
+import Generative from "./Generate";
 
 const Services = () => {
   return (
@@ -33,9 +34,12 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Mees Ai Search Engine</h4>
+            <a href="https://mees-ai-search.vercel.app/">
+                <h4 className="h4 mb-4">Mees Ai Search Engine</h4></a>
+
               <p className="body-2 mb-[3rem] text-n-3">
-               Mees AI Copilot unlocks the potential of AI-powered Research search Engine
+              <a href="https://mees-ai-search.vercel.app/">
+                 Mees AI Copilot unlocks the potential of AI-powered Research search Engine</a>
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,14 +70,18 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Social Media AI Bio Creator</h4>
+              <a href="https://x-com-ai-bio.vercel.app/">
+                <h4 className="h4 mb-4">Social Media AI Bio Creator</h4></a>
                 <p className="body-2 mb-[3rem] text-n-3">
+                  <a href="https://x-com-ai-bio.vercel.app/">
                   Automatically enhance your Research using our Mees AI Search&apos;s
-                  Search Engine. Try it now!
+                  Search Engine. Try it now!</a>
                 </p>
               </div>
 
               <PhotoChatMessage />
+
+              <Generative className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">

@@ -86,8 +86,8 @@ export const roadmap = [
     id: "0",
     title: "Voice recognition",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    date: "12 NOVEMBER 2024",
+    status: "progress",
     imageUrl: roadmap1,
     colorful: true,
   },
@@ -95,7 +95,7 @@ export const roadmap = [
     id: "1",
     title: "Gamification",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    date: "12 NOVEMBER 2024",
     status: "progress",
     imageUrl: roadmap2,
   },
@@ -103,18 +103,11 @@ export const roadmap = [
     id: "2",
     title: "Chatbot customization",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    date: "12 November 2024",
+    status: "Coming Soon",
     imageUrl: roadmap3,
   },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+ 
 ];
 
 export const collabText =
@@ -295,13 +288,13 @@ export const socials = [
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/Iamtoxix",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/mees_nz?igshid=MzNINGKZWQ4Mg%3D%3D",
   },
   {
     id: "3",
@@ -313,6 +306,6 @@ export const socials = [
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=100090089754837",
   },
 ];

@@ -18,7 +18,7 @@ export const Gradient = () => {
 export const PhotoChatMessage = () => {
   return (<a href="https://x-com-ai-bio.vercel.app/">
     <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
-      GetStarted
+      Get Started with Mees Bio
       <ChatBubbleWing className="absolute left-full bottom-0" />
     </div></a>
   );
