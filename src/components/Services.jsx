@@ -86,10 +86,12 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Mees AI Content Generation</h4>
+              <a href="https://mees-ai.vercel.app/">
+                <h4 className="h4 mb-4">Mees AI Content Generation</h4></a>
                 <p className="body-2 mb-[2rem] text-n-3">
+                <a href="https://mees-ai.vercel.app/">
                   The world’s most powerful AI Content generation, from blog , youtube
-                  content. What will you create?
+                  content. What will you create?</a>
                 </p>
 
                 <ul className="flex items-center justify-between">
