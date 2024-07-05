@@ -12,6 +12,7 @@ import {
 import Generating from "./Generating";
 import Generative from "./Generate";
 
+
 const Services = () => {
   return (
     <Section id="how-to-use">
@@ -115,7 +116,9 @@ const Services = () => {
                       </div>
                     </li>
                   ))}
+                  
                 </ul>
+               
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
