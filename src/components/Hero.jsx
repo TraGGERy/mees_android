@@ -39,7 +39,7 @@ const Hero = () => {
             Unleash the power of AI within Mees Ai Copilot. Upgrade your productivity
             with Mees Ai Copilot, the open Mees Ai Tools.
           </p>
-          <Button href="/pricing" white>
+          <Button href="https://mees-ai-search.vercel.app" white>
             Get started
           </Button>
         </div>
